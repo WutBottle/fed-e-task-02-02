@@ -73,3 +73,4 @@ var webpackConfig = {
   ]
 };
 ```
+##老师关于代码中eslint的配置，我这边总是出现奇怪的问题，还是没解决，一直出现createRequire is not a function问题，所以eslint这边我就等着老师们的答案了。

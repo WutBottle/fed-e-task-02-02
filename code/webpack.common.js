@@ -19,6 +19,14 @@ module.exports = {
         }
       },
     }, {
+      test: /\.(js|vue)$/,
+      loader: 'eslint-loader',
+      enforce: 'pre',
+      include: [path.resolve('src')],
+      options: {
+        formatter: require('eslint-friendly-formatter')
+      }
+    }, {
       test: /\.(png|gif|jpg|svg|jpeg)$/i,
       loader: 'url-loader',
       options: {
